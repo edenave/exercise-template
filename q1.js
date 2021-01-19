@@ -4,7 +4,15 @@ function run() {
     let out = "";
 /**/
     // write your code here
-    // out = input + 5;
+if (JSON.parse(input)){
+    if(Array.isArray(JSON.parse(input))){
+        out = true;
+    } else {
+        out = false;
+    }} else{
+        out = false;
+    
+}
 
 /**/
     output.innerText = out;
