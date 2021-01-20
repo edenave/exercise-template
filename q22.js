@@ -5,8 +5,8 @@
 
 /**/
     // write your code here
-    let arr1 = [12, 43, 45, 55];
-    let arr2 = [132, 44, 55];
+    let arr1 = [];
+    let arr2 = [];
     for (var i=0; i < arr2.length; i++) {
 
         arr1.push( arr2[i] );
