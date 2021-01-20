@@ -6,7 +6,7 @@ function run() {
 // /**/
 
     // write your code here
-    function getDuplicated(arr = [12 , 3, 43, 23, 3, 4]){
+    function getDuplicated(arr = []){
         let arrSort = arr.slice().sort();
         const results = [];
         for (var i = 0; i < arrSort.length - 1; i++) {
